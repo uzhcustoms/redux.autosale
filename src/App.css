@@ -1,39 +1,236 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
 .App-header {
-  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(223, 66, 55);
+  padding: 10px 40px;
+}
+
+.App-header h2 {
+  margin: auto;
+  color: rgb(245, 183, 90);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 40px;
+}
+
+.filter {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 30%;
+  box-shadow: 0 0 10px black;
+  margin-right: 30px;
+}
+
+.autos,
+.edit {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 65%;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.auto {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0 10px black;
+  padding: 20px;
+  margin-top: 20px;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.auto-item {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 50%;
+  box-shadow: 0 0 5px black;
 }
+
+.auto-edit {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-right: 20px;
+}
+
+.setting {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.setting button {
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+.setting button:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.setting #edit {
+  background-color: rgb(245, 183, 90);
+}
+
+.setting #delete {
+  background-color: rgb(223, 66, 55);
+}
+
+.auto-item-title,
+.edit-auto-title,
+.add-auto-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.auto-item-title p {
+  width: 40%;
+}
+
+.auto-item-title span {
+  width: 60%;
+}
+
+.edit-auto {
+  box-shadow: 0 0 5px black;
+  padding: 20px 50px;
+}
+
+.edit-auto h3 {
+  margin: auto;
+}
+
+.edit-auto-title p {
+  width: 30%;
+}
+
+.autos h2 {
+  text-align: center;
+}
+
+#addAuto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 70px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgb(29, 163, 58);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+}
+
+#search {
+  padding: 10px;
+  background-color: rgb(29, 163, 58);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.add-auto {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 0 0 5px black;
+  width: 60%;
+  padding: 20px 40px;
+}
+
+.add-auto-title h3 {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  color: rgb(245, 183, 90);
+}
+
+.add-auto-title p {
+  width: 30%;
+}
+
+input[type="text"],
+input[type="number"],
+button,
+select,
+textarea {
+  padding: 5px 10px;
+}
+
+textarea {
+  margin-bottom: 20px;
+}
+
+.auto-save {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#cancel,
+#save {
+  width: 200px;
+  border-radius: 3px;
+  border: none;
+  padding: 10px;
+}
+
+#save {
+  background-color: rgb(245, 183, 90);
+  margin-left: 20px;
+}
+
+#cancel {
+  background-color: rgb(223, 66, 55);
+}
+
+.filter h3 {
+  text-align: center;
+}
+
+.search-auto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-auto select {
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+.search-auto p {
+  margin-bottom: 5px;
+}
+
+.search-auto .searchPriceTo {
+  margin-left: 10px;
+}
+
+/* .wrapper {
+  border: 1px dashed red;
+  height: 50px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 150px;
+}
+.wrapper .selection {
+  width: 150px;
+  border: 1px solid #ccc;
+} */
