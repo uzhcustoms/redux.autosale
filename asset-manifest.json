@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/redux.autosale/static/css/main.1c9809df.chunk.css",
-    "main.js": "/redux.autosale/static/js/main.e385e15b.chunk.js",
-    "main.js.map": "/redux.autosale/static/js/main.e385e15b.chunk.js.map",
+    "main.css": "/redux.autosale/static/css/main.ee0b5647.chunk.css",
+    "main.js": "/redux.autosale/static/js/main.1b72bf36.chunk.js",
+    "main.js.map": "/redux.autosale/static/js/main.1b72bf36.chunk.js.map",
     "runtime-main.js": "/redux.autosale/static/js/runtime-main.fe7995d4.js",
     "runtime-main.js.map": "/redux.autosale/static/js/runtime-main.fe7995d4.js.map",
     "static/js/2.25af221e.chunk.js": "/redux.autosale/static/js/2.25af221e.chunk.js",
     "static/js/2.25af221e.chunk.js.map": "/redux.autosale/static/js/2.25af221e.chunk.js.map",
     "index.html": "/redux.autosale/index.html",
-    "static/css/main.1c9809df.chunk.css.map": "/redux.autosale/static/css/main.1c9809df.chunk.css.map",
+    "static/css/main.ee0b5647.chunk.css.map": "/redux.autosale/static/css/main.ee0b5647.chunk.css.map",
     "static/js/2.25af221e.chunk.js.LICENSE.txt": "/redux.autosale/static/js/2.25af221e.chunk.js.LICENSE.txt",
-    "static/media/car.6b03cacd.png": "/redux.autosale/static/media/car.6b03cacd.png"
+    "static/media/car.6b03cacd.png": "/redux.autosale/static/media/car.6b03cacd.png",
+    "static/media/noImage.a78cd430.jpg": "/redux.autosale/static/media/noImage.a78cd430.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.fe7995d4.js",
     "static/js/2.25af221e.chunk.js",
-    "static/css/main.1c9809df.chunk.css",
-    "static/js/main.e385e15b.chunk.js"
+    "static/css/main.ee0b5647.chunk.css",
+    "static/js/main.1b72bf36.chunk.js"
   ]
 }
